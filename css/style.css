@@ -1,34 +1,47 @@
-*{
-    font-family: 'Poppins', sans-serif;
+* {
+	font-family: "Poppins", sans-serif;
 }
 
-.bg-color{
-    background-color: #F0FFF0;
+.bg-color {
+	background-color: #f0fff0;
 }
 
-.custom-btn{
-    background-color: #21B573;
-    height: 43px;
-    border: 0;
-    padding: 0px 20px 0 20px ;
-    width: auto;
-    color: #F0FFF0;
-    border-radius: 33px;
+.custom-btn {
+	background-color: #21b573;
+	height: 43px;
+	border: 0;
+	padding: 0px 20px 0 20px;
+	width: auto;
+	color: #f0fff0;
+	border-radius: 33px;
 }
 
-.function-card{
-    height: 270px;
-    width: 270px;
-    border-radius: 15px;
-
+.function-card {
+	height: 270px;
+	width: 270px;
+	border-radius: 15px;
+    transition: transform 0.5s ease-in-out;
+    transition: background-color 0.3s ease-out;
+    
+}
+.function-card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #21b573;
 }
 
-.courses-card{
-    height: 483px;
-    width: 370px;
-    border-radius: 18px;
+.courses-card {
+	height: 483px;
+	width: 370px;
+	border-radius: 18px;
+	transition: transform 0.3s ease-in-out;
 }
-footer{
-    background-color: #282531;
 
+.courses-card:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+footer {
+	background-color: #282531;
 }
